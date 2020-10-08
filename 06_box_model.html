@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model/ Margin & Padding</title>
+    <style>
+        /* CSS Reset */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background: #f4f4f4;
+            border: 1px blue solid;
+            width: 500px;
+
+            /* Padding on all sides */
+            padding: 20px;
+
+            /* Padding per side */
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+
+            /* Padding shorthand = top, right, bottom, left */
+            padding: 20px 10px 20px 10px;
+
+            /* Padding shorthand = top/bottom left/right */
+            padding: 10px 15px;
+
+            /* Margin */
+            margin: 15px 15px;
+
+            /* Margin on all sides */
+            margin: 20px;
+        }
+        .box h3{
+                padding-bottom: 10px
+            }
+    </style>
+</head>
+<body>
+   <div class="box">
+       <h3>Box One</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia autem, doloribus fugiat commodi enim id, alias dolorem tempora sapiente quibusdam quam? Molestiae similique, in rem tempora autem temporibus? Error sunt quod aut doloremque molestiae alias, quae molestias, iure perferendis cupiditate ad assumenda facere eveniet consectetur repellat! Fugit earum itaque dolore?</p>
+   </div>
+   <div class="box">
+       <h3>Box Two</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia autem, doloribus fugiat commodi enim id, alias dolorem tempora sapiente quibusdam quam? Molestiae similique, in rem tempora autem temporibus? Error sunt quod aut doloremque molestiae alias, quae molestias, iure perferendis cupiditate ad assumenda facere eveniet consectetur repellat! Fugit earum itaque dolore?</p>
+   </div>
+   <div class="box">
+       <h3>Box Two</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia autem, doloribus fugiat commodi enim id, alias dolorem tempora sapiente quibusdam quam? Molestiae similique, in rem tempora autem temporibus? Error sunt quod aut doloremque molestiae alias, quae molestias, iure perferendis cupiditate ad assumenda facere eveniet consectetur repellat! Fugit earum itaque dolore?</p>
+   </div>
+</body>
+</html>
